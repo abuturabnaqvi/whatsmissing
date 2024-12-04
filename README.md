@@ -14,15 +14,14 @@ cd whatsmissing
 ### Usage 
 To run the application with your structure files, you will need to download the file from [RCSB PDB](https://www.rcsb.org/) databank. Make sure to download the PDB file in mmCIF format. Keep the PDB file in the same directory as the application. 
 ```
-CURRENT_DIR/cd whatsmissing
 
-../whatsmissing/python whatsmissing.pyc example
+python whatsmissing.pyc example (To run the example file)
 
-../whatsmissing/python whatsmissing.pyc [YOUR PDB ID]
+python whatsmissing.pyc [YOUR PDB ID] 
 
 ```
 > [!NOTE]
-> Provide the PDB ID without extension (i.e., .cif).
+> Provide the PDB ID (4-letter code) without extension (i.e., .cif).
 
 ### Output
 The program generates a text file with the information of the number of missing residues/atoms and details of missing residues/atoms in tabular format. 
