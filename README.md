@@ -24,6 +24,8 @@ CURRENT_DIR/cd whatsmissing
 > Provide the PDB ID without extension (i.e., .cif).
 
 ### Output
-The program generates a Text file with the information of about number of missing residues/atoms and details of missing residues/atoms in tabular format. 
+The program generates a text file with the information of the number of missing residues/atoms and details of missing residues/atoms in tabular format. 
 
 ![Output Format](https://github.com/abuturabnaqvi/whatsmissing/blob/main/output.png)
+
+
